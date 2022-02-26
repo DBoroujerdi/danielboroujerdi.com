@@ -15,18 +15,17 @@ class Animation {
     const index = this.index;
     const sprite = spriteIndex[index];
 
-    // context.drawImage(img,sx,sy,swidth,sheight,x,y,width,height);.
     const context = canvas.getContext("2d");
     context.drawImage(
-      this.sheet,
-      sprite[0],
-      sprite[1],
-      sprite[2],
-      sprite[3],
-      x + sprite[4],
-      y,
-      sprite[2] * 2,
-      sprite[3] * 2
+      this.sheet,     // img
+      sprite[0],      // sx
+      sprite[1],      // sy
+      sprite[2],      // swidth
+      sprite[3],      // sheight
+      x + sprite[4],  // x
+      y,              // y
+      sprite[2] * 2,  // width
+      sprite[3] * 2   // height
     );
 
     this.index++;
@@ -99,6 +98,6 @@ class PrinceEngine {
   }
 }
 
-const princeEngine = new PrinceEngine({ fps: 10, backgroundColor: "black" });
+const princeEngine = new PrinceEngine({ fps: 15, backgroundColor: "black" });
 
 export default princeEngine;

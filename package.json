@@ -1,0 +1,21 @@
+{
+  "name": "danielboroujerdi.com",
+  "version": "1.0.0",
+  "description": "My Website",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DBoroujerdi/danielboroujerdi.com.git"
+  },
+  "author": "Daniel Boroujerdi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DBoroujerdi/danielboroujerdi.com/issues"
+  },
+  "homepage": "https://github.com/DBoroujerdi/danielboroujerdi.com#readme",
+  "devDependencies": {
+    "parcel": "^2.3.2"
+  }
+}
