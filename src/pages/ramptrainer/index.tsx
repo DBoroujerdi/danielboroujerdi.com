@@ -1,5 +1,5 @@
-import { Privacy } from './privacy';
 import apple from '../../assets/apple.svg'
+import { Privacy } from './privacy';
 import './style.css';
 
 export function RampTrainer() {
@@ -20,7 +20,7 @@ export function RampTrainer() {
       </div>
 
       <div>
-        <a href="/RampTrainer/privacy">
+        <a href="/ramptrainer/privacy">
           Privacy Policy
         </a>
       </div>

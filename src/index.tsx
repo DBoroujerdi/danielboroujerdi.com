@@ -1,8 +1,8 @@
 import { render } from 'preact';
 import { LocationProvider, Router, Route, hydrate, prerender as ssr } from 'preact-iso';
 
-import { Home } from './pages/Home/index.jsx';
-import { RampTrainer, Privacy } from './pages/RampTrainer/index.jsx';
+import { Home } from './pages/home/index.js';
+import { RampTrainer, Privacy } from './pages/ramptrainer/index.js';
 import { NotFound } from './pages/_404.jsx';
 
 export function App() {
@@ -11,8 +11,8 @@ export function App() {
 			<main>
 				<Router>
 					<Route path="/" component={Home} />
-					<Route path="/RampTrainer" component={RampTrainer} />
-					<Route path="/RampTrainer/privacy" component={Privacy} />
+					<Route path="/ramptrainer" component={RampTrainer} />
+					<Route path="/ramptrainer/privacy" component={Privacy} />
 					<Route default component={NotFound} />
 				</Router>
 			</main>

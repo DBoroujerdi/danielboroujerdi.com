@@ -21,7 +21,7 @@ export function Home() {
 				<div class="margin-top">
 					<ul>
 						<li>
-							<a href="/RampTrainer">RampTrainer</a>
+							<a href="/ramptrainer">RampTrainer</a>
 						</li>
 						<li>
 							<a href="https://ergtrainer.com">ErgTrainer (coming soon)</a>
