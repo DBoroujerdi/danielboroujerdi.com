@@ -1,5 +1,5 @@
 import { render } from 'preact';
-import { LocationProvider, Router, Route } from 'preact-iso';
+import { LocationProvider, Router, Route, hydrate, prerender as ssr } from 'preact-iso';
 
 import { Home } from './pages/Home/index.jsx';
 import { RampTrainer, Privacy } from './pages/RampTrainer/index.jsx';
@@ -20,4 +20,11 @@ export function App() {
 	);
 }
 
-render(<App />, document.getElementById('app'));
+if (typeof window !== 'undefined') {
+	hydrate(<App />, document.getElementById('app'));
+}
+
+export async function prerender(data) {
+	return await ssr(<App {...data} />);
+}
+
