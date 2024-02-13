@@ -19,13 +19,13 @@ export function RampTrainer() {
         <img src={apple} onClick={() => alert("Coming soon!")} />
       </div>
 
-      <div class="margin-top">
+      <div>
         <a href="/RampTrainer/privacy">
           Privacy Policy
         </a>
       </div>
 
-      <div class="margin-top">
+      <div>
         <a href="mailto:contact@boroujerdi.co.uk">
           contact@boroujerdi.co.uk
         </a>
