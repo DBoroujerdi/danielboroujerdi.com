@@ -16,7 +16,9 @@ export function RampTrainer() {
       </p>
 
       <div id="apple-logo">
-        <img src={apple} onClick={() => alert("Coming soon!")} />
+        <a href="https://apps.apple.com/gb/app/ramptrainer/id6477802093">
+          <img src={apple} />
+        </a>
       </div>
 
       <div>
