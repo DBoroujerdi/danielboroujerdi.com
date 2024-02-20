@@ -21,7 +21,7 @@ export function Home() {
 				<div class="margin-top">
 					<ul>
 						<li>
-							<a href={"https://ramptrainer.netlify.app"}>RampTrainer Web</a>
+							<a href={"https://ramptrainer.com"}>RampTrainer Web</a>
 						</li>
 						<li>
 							<a href="/ramptrainer">RampTrainer iOS</a>
