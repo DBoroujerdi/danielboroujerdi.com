@@ -1,6 +1,6 @@
+import './style.css';
 import apple from '../../assets/apple.svg'
 import { Privacy } from './privacy';
-import './style.css';
 
 export function RampTrainer() {
   return (
