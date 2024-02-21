@@ -22,6 +22,12 @@ export function RampTrainer() {
       </div>
 
       <div>
+        <a href="/ramptrainer/terms-of-service">
+          Terms of Service
+        </a>
+      </div>
+
+      <div>
         <a href="/ramptrainer/privacy">
           Privacy Policy
         </a>
