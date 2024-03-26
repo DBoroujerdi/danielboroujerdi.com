@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/DBoroujerdi/danielboroujerdi.com#readme",
   "devDependencies": {
-    "parcel": "^2.3.2"
+    "parcel": "^2.12.0"
   }
 }
