@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "My Website",
   "scripts": {
-    "build": "npx parcel build src/index.html",
+    "build": "npx parcel build src/index.html && cp _redirects dist/",
     "dev": "npx parcel src/index.html"
   },
   "repository": {
