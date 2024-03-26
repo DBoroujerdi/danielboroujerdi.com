@@ -1,11 +1,6 @@
 import boids from "./boids.js";
 import snake from "./snake.js";
 
-if (window.location.pathname.includes("ramptrainer")) {
-  window.location.href = "https://ramptrainer.com";
-  return;
-}
-
 class FPSDisplay {
   constructor(container) {
     this.fpsCount = 0;
